@@ -1,0 +1,5 @@
+[
+  { "id": "1", "name": "Central Park", "location": "New York, USA", "imageUrl": "https://example.com/images/central_park.jpg" },
+  { "id": "2", "name": "Eiffel Tower", "location": "Paris, France", "imageUrl": "https://example.com/images/eiffel_tower.jpg" },
+  { "id": "3", "name": "Great Wall of China", "location": "China", "imageUrl": "https://example.com/images/great_wall.jpg" }
+]
