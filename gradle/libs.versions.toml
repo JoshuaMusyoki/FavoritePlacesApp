@@ -20,6 +20,7 @@ navigationFragmentKtx = "2.8.3"
 retrofit = "2.9.0"
 roomRuntime = "2.5.0"
 hilt = "2.51.1"
+ui = "1.7.5"
 
 
 [libraries]
@@ -54,6 +55,7 @@ lottie-compose = { module = "com.airbnb.android:lottie-compose", version.ref = "
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 hilt-android = {module = "com.google.dagger:hilt-android", version.ref="hilt"}
 hilt-android-compiler = {module = "com.google.dagger:hilt-android-compiler", version.ref="hilt"}
+ui = { module = "androidx.compose.ui:ui", version.ref = "ui" }
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
