@@ -13,10 +13,10 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 
 class RepositoryModule {
-    @Provides
-    @Singleton
+//    @Provides
+//    @Singleton
 
-    fun providePlacesRepository(@ApplicationContext context: Context) : PlacesRepository {
-        return PlacesRepositoryImpl(context)
-    }
+//    fun providePlacesRepository(@ApplicationContext context: Context) : PlacesRepository {
+//        return PlacesRepositoryImpl(context)
+//    }
 }

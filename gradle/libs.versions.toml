@@ -18,7 +18,7 @@ composeBom = "2024.10.01"
 lottieCompose = "6.0.0"
 navigationFragmentKtx = "2.8.3"
 retrofit = "2.9.0"
-roomRuntime = "2.6.1"
+roomRuntime = "2.5.0"
 hilt = "2.51.1"
 
 

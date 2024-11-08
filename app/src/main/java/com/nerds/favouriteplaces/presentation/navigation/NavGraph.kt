@@ -11,6 +11,8 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.NavHostController
+import com.nerds.favouriteplaces.presentation.screens.PlaceItem
+import com.nerds.favouriteplaces.presentation.screens.PlacesListScreen
 import com.nerds.favouriteplaces.presentation.screens.SplashScreen
 
 @Composable
@@ -23,7 +25,18 @@ fun SetUpNavGraph(navController: NavHostController) {
             SplashScreen(navController = navController)
         }
         composable(route = Screen.Home.route) {
-
+            PlacesListScreen()
+        }
+        composable(route = Screen.PlaceList.route) { 
+            PlacesListScreen(
+                viewModel = TODO()
+            )
+        }
+        composable(route = Screen.PlaceItem.route) { 
+            PlaceItem(
+                places = TODO(),
+                isFavorite = TODO()
+            ) { }
         }
     }
 }
