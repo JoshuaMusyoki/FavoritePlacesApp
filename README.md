@@ -40,3 +40,7 @@
    - PlacesListScreen: Displays a list of places with options to mark as favorite.
    - FavoritesScreen: Displays only the user's favorited places.
    - Navigation: Utilizes the Navigation Component to manage navigation between screens.
+
+## Screenshots(Bottom Navigation and SplashScreen)
+![](/home/nerd01/Pictures/Screenshots/Screenshot from 2024-11-08 13-02-43.png)
+![](/home/nerd01/Pictures/Screenshots/Screenshot from 2024-11-08 13-03-43.png)

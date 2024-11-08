@@ -32,6 +32,13 @@ fun SetUpNavGraph(navController: NavHostController) {
                 viewModel = TODO()
             )
         }
+        
+        composable(route = Screen.Favourites.route) { 
+            PlaceItem(
+                places = TODO(),
+                isFavorite = TODO()
+            ) { }
+        }
         composable(route = Screen.PlaceItem.route) { 
             PlaceItem(
                 places = TODO(),
