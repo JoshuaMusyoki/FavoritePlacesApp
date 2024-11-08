@@ -7,6 +7,7 @@ import com.nerds.favouriteplaces.data.local.PlaceDao
 import com.nerds.favouriteplaces.data.local.PlaceEntity
 import com.nerds.favouriteplaces.domain.model.Places
 import com.nerds.favouriteplaces.domain.repository.PlacesRepository
+import kotlinx.coroutines.flow.Flow
 
 class PlacesRepositoryImpl(private val placeDao: PlaceDao, private val context: Context) : PlacesRepository {
     private val favorites = mutableListOf<Places>()
@@ -37,6 +38,10 @@ class PlacesRepositoryImpl(private val placeDao: PlaceDao, private val context: 
     override suspend fun removeDbFavourite(places: PlaceEntity) {
         val updatedPlace = places.copy(isFavorite = false)
         placeDao.updatePlace(updatedPlace)
+    }
+
+    override suspend fun getFavoritePlaces(): Flow<Set<String>> {
+        TODO("Not yet implemented")
     }
 
     override suspend fun markAsFavourite(places: Places) {
