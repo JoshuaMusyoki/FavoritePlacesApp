@@ -19,9 +19,9 @@ import com.nerds.favouriteplaces.presentation.screens.SplashScreen
 fun SetUpNavGraph(navController: NavHostController) {
     NavHost (
         navController = navController,
-        startDestination = Screen.Splash.route
+        startDestination = Screen.Home.route
     ) {
-        composable(route = Screen.Splash.route) {
+        composable(route = Screen.Home.route) {
             SplashScreen(navController = navController)
         }
         composable(route = Screen.Home.route) {

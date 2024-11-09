@@ -38,6 +38,6 @@
    - UI Screens: Built using Jetpack Compose, includes:
    - SplashScreen: Displays a logo and transitions to the main screen.
    - PlacesListScreen: Displays a list of places with options to mark as favorite.
-   - FavoritesScreen: Displays only the user's favorited places.
+   - FavoritesScreen: Displays only the user's favorite places.
    - Navigation: Utilizes the Navigation Component to manage navigation between screens.
 

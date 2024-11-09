@@ -10,7 +10,7 @@ import com.nerds.favouriteplaces.presentation.screens.PlacesListScreen
 import com.nerds.favouriteplaces.ui.theme.FavouritePlacesTheme
 import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoint
+//@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

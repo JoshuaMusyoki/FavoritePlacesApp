@@ -90,6 +90,12 @@ dependencies {
 //    Datastore
     implementation (libs.androidx.datastore.preferences)
 
+    // optional - RxJava2 support
+    implementation (libs.androidx.datastore.preferences.rxjava2)
+
+    // optional - RxJava3 support
+    implementation (libs.androidx.datastore.preferences.rxjava3)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
