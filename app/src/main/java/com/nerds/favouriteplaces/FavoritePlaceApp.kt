@@ -5,7 +5,7 @@ import androidx.room.Room
 import com.nerds.favouriteplaces.data.local.PlaceDatabase
 import dagger.hilt.android.HiltAndroidApp
 
-@HiltAndroidApp
+//@HiltAndroidApp
 class FavoritePlaceApp: Application() {
     val database = Room.databaseBuilder(
         applicationContext,

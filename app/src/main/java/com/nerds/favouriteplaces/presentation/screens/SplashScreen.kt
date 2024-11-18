@@ -34,7 +34,7 @@ fun SplashScreen(navController: NavHostController) {
         delay(3000)  // Wait for 3 seconds
         isVisible = false
         delay(300)  // Additional delay for fade-out animation
-        navController.navigate(Screen.Home.route){
+        navController.navigate(Screen.PlaceList.route){
             popUpTo(Screen.Splash.route){inclusive = true}
         }
     }
