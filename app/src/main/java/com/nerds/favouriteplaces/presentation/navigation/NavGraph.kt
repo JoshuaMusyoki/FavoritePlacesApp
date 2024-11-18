@@ -14,6 +14,7 @@ import androidx.navigation.NavHostController
 import com.nerds.favouriteplaces.presentation.screens.PlaceItem
 import com.nerds.favouriteplaces.presentation.screens.PlacesListScreen
 import com.nerds.favouriteplaces.presentation.screens.SplashScreen
+import com.nerds.favouriteplaces.presentation.viewModel.PlacesViewModel
 
 @Composable
 fun SetUpNavGraph(navController: NavHostController) {
@@ -29,21 +30,20 @@ fun SetUpNavGraph(navController: NavHostController) {
         }
         composable(route = Screen.PlaceList.route) { 
             PlacesListScreen(
-                viewModel = TODO()
+
             )
         }
         
-        composable(route = Screen.Favourites.route) { 
-            PlaceItem(
-                places = TODO(),
-                isFavorite = TODO()
-            ) { }
-        }
-        composable(route = Screen.PlaceItem.route) { 
-            PlaceItem(
-                places = TODO(),
-                isFavorite = TODO()
-            ) { }
-        }
+//        composable(route = Screen.Favourites.route) {
+//            PlaceItem(
+//
+//            ) { }
+//        }
+//        composable(route = Screen.PlaceItem.route) {
+//            PlaceItem(
+//                places = TODO(),
+//                isFavorite = TODO()
+//            ) { }
+//        }
     }
 }
